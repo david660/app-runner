@@ -1,0 +1,145 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+#container {
+  background-color:rgba(15, 21, 31, 0.856);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:rgb(180, 178, 178);
+}
+
+.input-div, .info-input {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-div {
+  height:350px;
+}
+
+.info-input{
+  height:200px;
+}
+
+.logo {
+  border:1px solid white;
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  color:white;
+}
+
+.num-inp {
+  color:black;
+  height:30px;
+  width:250px;
+  font-size:12px;
+  padding-left:10px;
+}
+
+.add {
+  height:70px;
+  width:70px;
+  background-color:rgb(31, 180, 190);
+  color:black;
+  border-radius:50px;
+  border:none;
+  font-family:'Courier New', Courier, monospace;
+  font-size:24px;
+  font-weight:600;
+}
+
+.saver-wrapper {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.save-form {
+  display: flex;
+  justify-content: space-between;
+  width:150px;
+}
+
+.week-display{
+  display:flex;
+  height:60px;
+  align-items:center;
+}
+
+.weekday-cont {
+  display:flex;
+  width:250px;
+  justify-content: space-around;
+}
+
+.week-day {
+  width:30px;
+  height:30px;
+  text-align: center;
+  color:black;
+}
+
+.calculations {
+  height:150px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.calc {
+  display:flex;
+  justify-content: space-between;
+  background-color:rgb(1, 1, 27);
+  color:white;
+  width:300px;
+  height:35px;
+  align-items: center;
+  padding:10px;
+  border:none;
+  border-radius:3px;
+}
+
+.progress {
+  text-align:center;
+  padding-bottom: 1em;
+
+}
+
+.progress h3{
+  font-size:1.6rem;
+  font-weight:lighter;
+}
+
+.progressCircleWrapper {
+  display:flex;
+  justify-content: center;
+}
+
+.progress-circle {
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  /**background:conic-gradient(#70db70 50%, #2d3740 50%);**/
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.progress-center {
+  width:170px;
+  height:170px;
+  border-radius: 50%;
+  background: #2d3740;
+}

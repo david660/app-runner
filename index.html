@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    
+    <div id="container">
+        <div class="input-div">
+            <div class="logo">
+                <h3>Muyi</h3>
+                <h6>Runner</h6>
+            </div>
+          <div class="info-input">
+            <h6 style="font-size:20px; font-family:'Courier New', Courier, monospace; color:white;">Number of Miles Today</h6>
+            <input type="number" class="num-inp">
+            <input type="button" value="Add" class="add">
+
+            <div class="saver-wrapper">
+              <p style="font-family:'Courier New', Courier, monospace; font-size:20px; text-align: center;">Enter your weekly target:</p>
+              <form action="#" class="save-form">
+                <input type="number" class="goal-text" style="width:100px; height:30px; border:none; padding-left:6px;">
+                <input type="button" value="save" class="save" style="height:30px; width:40px; padding:6px; border-radius:3px; border:none; font-family: 'Courier New', Courier, monospace; font-size:14px;">
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr style="width:350px;">
+
+        <p style="color:white; font-family:'Courier New', Courier, monospace; font-size:20px; margin-top:10px;">last 7 days</p>
+
+        <div class="week-display">
+          <div class="weekday-cont">
+            <input class="week-day" value="-">
+            <input class="week-day" value="-">
+            <input class="week-day" value="-">
+            <input class="week-day" value="-">
+            <input class="week-day" value="-">
+            <input class="week-day" value="-">
+            <input class="week-day" value="-">
+          </div>
+        </div>
+
+        <div class="calculations">
+          <div class="total-cont calc">
+            <p>Total:</p>
+            <span class="total">0</span>
+          </div>
+          <div class="averageDist-cont calc">
+            <p>Average Distance:</p>
+            <span class="average">0</span>
+          </div>
+          <div class="weekHigh-cont calc">
+            <p>This week's high:</p>
+            <span class="high">0</span>
+          </div>
+        </div>
+      
+
+      <div class="progress">
+        <h3>Weekly target: <span class="progress-total"></span> / <span class="target"></span> miles</h3>
+        <div class="progressCircleWrapper">
+          <div class="progress-circle">
+            <div class="progress-center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
